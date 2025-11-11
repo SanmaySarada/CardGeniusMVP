@@ -3,7 +3,7 @@
     "name": "CardChooser",
     "slug": "cardchooser",
     "version": "1.0.0",
-    "sdkVersion": "52.0.0",
+    "sdkVersion": "54.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
@@ -38,7 +38,11 @@
     "plugins": [
       "expo-location",
       "expo-camera"
-    ]
+    ],
+    "experiments": {
+      "reactCompiler": false
+    },
+    "newArchEnabled": false
   }
 }
 
