@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "CardChooser",
+    "slug": "cardchooser",
+    "version": "1.0.0",
+    "sdkVersion": "52.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#007AFF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cardchooser.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "CardChooser needs your location to recommend the best card when you're at a store.",
+        "NSCameraUsageDescription": "CardChooser needs camera access to scan your cards."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#007AFF"
+      },
+      "package": "com.cardchooser.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      "expo-location",
+      "expo-camera"
+    ]
+  }
+}
+
